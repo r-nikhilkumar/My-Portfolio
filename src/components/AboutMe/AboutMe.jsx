@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useRef } from "react";
 import styled, { keyframes } from "styled-components";
 import { themeContext } from "../../Context";
 import "./AboutMe.css";
-import mypic from "../../img/mypic.png"
+import mypic from "../../img/mypic.png";
 
 const AboutMe = () => {
   const theme = useContext(themeContext);
@@ -121,7 +121,10 @@ const AboutMe = () => {
       <div ref={ref} className="content">
         <div className="left">
           <Title>About Me</Title>
-          <p>Here is a brief <br/>summary about me!</p>
+          <p>
+            Here is a brief <br />
+            summary about me!
+          </p>
         </div>
         <div className="right">
           <Text>
@@ -130,8 +133,8 @@ const AboutMe = () => {
             {scrambleText(" specializing in ")}
             <Highlight>{scrambleText("Artificial Intelligence")}</Highlight>
             {scrambleText(" and ")}
-            <Highlight>{scrambleText("Machine Learning")}</Highlight>
-            {scrambleText(" also proficient in ")}
+            <Highlight>{scrambleText("Machine Learning ")}</Highlight>
+            {scrambleText("also proficient in ")}
             <Highlight>{scrambleText("Full-Stack Development")}</Highlight>
             {scrambleText(" and ")}
             <Highlight>{scrambleText("Application Development")}</Highlight>

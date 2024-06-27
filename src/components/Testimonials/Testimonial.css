@@ -49,6 +49,7 @@
 }
 .testimonial>span{
     color: var(--gray);
+    font-size: 0.8rem;
 }
 
 
@@ -64,7 +65,8 @@
     justify-content: center;
 }
 
-.t-wrapper .swiper-pagination-bullet-active{
+
+.t-wrapper .swiper-pagination-bullet {
     background: var(--orange);
 }
 

@@ -53,4 +53,57 @@
   .card-details {
     font-size: 0.7rem;
   }
+
+
+  /* AchievementsSection.css */
+
+/* Slider pagination bullets */
+.slick-dots li button:before {
+  color: var(--gray); /* Color for inactive bullets */
+  font-size: 12px; /* Adjust size if needed */
+}
+
+.slick-dots li.slick-active button:before {
+  color: var(--orange); /* Color for active bullets */
+}
+
+.achievements-section {
+  position: relative;
+}
+
+.achievements-section .slick-prev,
+.achievements-section .slick-next {
+  color: var(--orange); /* Arrow color */
+  border-color: var(--orange); /* Arrow border color */
+}
+
+/* Ensure bullets are visible on dark background */
+.slick-dots {
+  position: absolute;
+  bottom: -25px; /* Adjust this value if needed */
+  width: 100%;
+  display: flex !important;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.slick-dots li {
+  margin: 0 5px; /* Adjust spacing between dots */
+}
+
+.slick-dots li button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.slick-dots li button:before {
+  content: '•'; /* Use a dot character */
+  font-size: 20px; /* Adjust size if needed */
+  line-height: 1;
+}
+
   

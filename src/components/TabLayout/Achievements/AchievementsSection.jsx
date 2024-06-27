@@ -104,8 +104,6 @@ const AchievementsSection = () => {
         },
       },
     ],
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
   };
 
   return (
