@@ -1,0 +1,153 @@
+.cardContainer {
+  width: 98%;
+  height: 40vmin;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  margin: auto 7px;
+  overflow: hidden;
+  border: 3px solid var(--orangeCard);
+  box-shadow: var(--boxShadow);
+  border-radius: 30px;
+}
+
+@media (min-width: 768px) {
+  .cardContainer:hover {
+    filter: opacity(0.8);
+  }
+
+  .social {
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    width: 70%;
+    top: 10px;
+    left: 5px;
+    justify-content: space-around;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out; /* Smooth transition for opacity */
+  }
+
+  .social a {
+    text-decoration: none;
+    color: rgb(244, 229, 229);
+    font-weight: bold;
+  }
+
+  .cardContainer h2 {
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    left: 4vmin;
+    font-size: 4vmin;
+    font-weight: bold;
+    color: white;
+  }
+  
+
+  .demo-arrow {
+    background: none;
+    border: none;
+    position: absolute;
+    transform: scale(0); /* Initial scale */
+    transform-origin: top left; /* Scale from top left */
+    right: -30%;
+    bottom: -30%;
+    height: 100%;
+    width: 100%;
+    color: var(--orange);
+    z-index: 4;
+    cursor: pointer;
+    transition: transform 0.25s ease-in-out; /* Quick transition for scaling */
+  }
+
+  .cardContainer:hover .demo-arrow {
+    transform: scale(1); /* Scale demo-arrow to 1 on hover */
+  }
+
+  .cardContainer::after {
+    position: absolute; /* Position the pseudo-element */
+    background-color: rgb(92, 20, 20);
+    opacity: 0.6;
+    width: 110%;
+    height: 100%;
+    border-top-left-radius: 100%;
+    content: "";
+    bottom: 0; /* Position it within the container */
+    right: -300%; /* Initially outside the container */
+    z-index: 1; /* Make sure it's above the background but below other content */
+    transition: right 0.2s ease-in-out; /* Smooth transition for moving */
+  }
+
+  .cardContainer:hover::after {
+    right: 0; /* Move into view on hover */
+  }
+
+  .cardContainer p {
+    position: absolute;
+    z-index: 3;
+    right: -3vmin;
+    text-decoration: underline;
+    display: none;
+    opacity: 0;
+    transform: rotate(90deg);
+    font-size: 2vmin;
+    top: 4vmin;
+    text-align: end;
+    color: white;
+    transition: opacity 0.3s ease-in-out; /* Smooth transition for opacity */
+  }
+
+  .cardContainer:hover p,
+  .cardContainer:hover .social {
+    display: flex; /* Show on hover */
+    opacity: 1; /* Fade in */
+  }
+}
+
+@media (max-width: 767px) {
+  .social {
+    position: relative; /* Reset position for mobile */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    opacity: 1; /* Show social links */
+  }
+
+  .social a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  .cardContainer h2 {
+    position: relative; /* Reset position for mobile */
+    font-size: 5vmin;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .demo-arrow {
+    display: block; /* Ensure arrow icon is visible */
+    position: relative; /* Reset position for mobile */
+    text-align: center;
+    color: var(--orange);
+    width: 100%;
+    bottom: -30%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .cardContainer::after {
+    display: none; /* Hide pseudo-element background for mobile */
+  }
+
+  .cardContainer p {
+    display: none; /* Hide description for mobile */
+  }
+}

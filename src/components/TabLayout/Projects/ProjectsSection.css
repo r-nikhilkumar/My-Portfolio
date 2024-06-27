@@ -1,0 +1,73 @@
+.projects-section {
+  margin: 20px 0;
+  background-color: transparent;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.project-cards {
+  width: 100%;
+}
+
+/* Styles for slick slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-slide {
+  float: left;
+  min-height: 1px;
+}
+
+/* Optional: Customize slick dots */
+.slick-dots {
+  position: relative;
+  bottom: -20px; /* Adjusted to ensure dots are below the carousel */
+  list-style: none;
+  display: flex !important;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  font-size: 12px;
+  color: var(--black);
+  border: 1px solid orange;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.slick-dots li.slick-active button {
+  background-color: orange; /* Changed to orange */
+  color: orange; /* Changed to orange */
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+}

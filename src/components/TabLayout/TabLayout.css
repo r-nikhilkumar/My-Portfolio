@@ -1,0 +1,85 @@
+/* TabLayout.css */
+
+.tab-layout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  transform: translateX(100%); /* Start off-screen to the right */
+  opacity: 0;
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-top: 7vmin;
+  transition: transform 1.5s linear, opacity 0.5s linear; /* Use transition for smooth animation */
+}
+
+.tab-layout.visible {
+  transform: translateX(0); /* Move to original position */
+  opacity: 1;
+}
+
+.tab-buttons {
+  display: flex;
+  margin-top: 2vmin;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.tab-buttons button {
+  position: relative;
+  padding: 1vmin 2vmin;
+  font-weight: bold;
+  color: #333;
+  background-color: #ddd;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tab-buttons button::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: var(--black);
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.tab-buttons button.active::before {
+  background-color: var(--orange);
+}
+
+.tab-buttons button.active {
+  background-color: var(--orange);
+  color: white;
+}
+
+.tab-content {
+  background-color: transparent;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .tab-buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tab-buttons button {
+    margin: 5px;
+  }
+}

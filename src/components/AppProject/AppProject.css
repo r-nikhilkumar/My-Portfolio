@@ -1,0 +1,95 @@
+.app-project-container {
+    display: grid;
+    grid-template-areas: 'left center right';
+    grid-gap: 16px; /* Add spacing between grid items */
+    margin-top: 8vmin;
+    background-color: transparent;
+    padding: 16px; /* Add padding around the container */
+}
+
+@keyframes appProjectAnimateLeft {
+    0% { opacity: 0.5; transform: translateX(-100px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+.animated-left {
+    animation: appProjectAnimateLeft 1s ease-in-out;
+}
+
+@keyframes appProjectAnimateCenter {
+    0% { opacity: 0.5; transform: translateY(100px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.animated-center {
+    animation: appProjectAnimateCenter 1s ease-in-out;
+}
+
+@keyframes appProjectAnimateRight {
+    0% { opacity: 0.5; transform: translateX(100px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+.animated-right {
+    animation: appProjectAnimateRight 1s ease-in-out;
+}
+
+.app-project-container .left {
+    grid-area: left;
+    padding: 16px; /* Add padding within each section */
+}
+
+.app-project-container .center {
+    grid-area: center;
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px; /* Add padding within each section */
+}
+
+.center .title {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.center .details {
+    font-size: 1rem;
+}
+
+.center .details a {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+.app-project-container .right {
+    grid-area: right;
+    padding: 16px; /* Add padding within each section */
+}
+
+/* Ensure images maintain aspect ratio */
+.app-project-container img {
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .app-project-container {
+        grid-template-areas:
+            'center'
+            'left'
+            'right';
+        grid-gap: 16px; /* Ensure the spacing is consistent on mobile */
+        padding: 16px; /* Add padding around the container */
+    }
+
+    .app-project-container .left,
+    .app-project-container .center,
+    .app-project-container .right {
+        padding: 16px; /* Add padding within each section */
+        display: flex;
+        justify-content: center;
+    }
+}
