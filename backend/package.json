@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend dependencies",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.9.14",
+    "cors": "^2.8.5",
+    "body-parser": "^1.19.1",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}

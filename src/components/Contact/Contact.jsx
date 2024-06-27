@@ -1,6 +1,7 @@
 import React, { useContext, useRef, useState } from "react";
 import "./Contact.css";
 import { themeContext } from "../../Context";
+import { backendUrl } from "../../constants";
 
 const Contact = () => {
   const theme = useContext(themeContext);
@@ -23,7 +24,7 @@ const Contact = () => {
     };
 
     try {
-      const response = await fetch("http://localhost:3001/send-email", {
+      const response = await fetch(`${backendUrl}/send-email`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
