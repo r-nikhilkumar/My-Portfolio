@@ -6,6 +6,5 @@ export const linkedin = "https://www.linkedin.com/in/r--nikhilkumar/"
 
 export const git_baseURL = "https://api.github.com";
 export const git_username = "r-nikhilkumar";
-export const git_token = "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";
 
 export const backendUrl = "https://nikhilkumar.onrender.com"

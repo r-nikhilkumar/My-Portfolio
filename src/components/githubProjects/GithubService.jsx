@@ -7,7 +7,7 @@ export const fetchProjects = async () => {
   try {
     const response = await fetch(`${git_baseURL}/users/${git_username}/repos`, {
       headers: {
-        Authorization: `token ${git_token}`,
+        Authorization: `token ${process.env.GITHUB_API_URL}`,
       },
     });
     if (!response.ok) {

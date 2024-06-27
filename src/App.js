@@ -16,7 +16,11 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import TabLayout from "./components/TabLayout/TabLayout";
 import AppProject from "./components/AppProject/AppProject";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
+import dotenv from 'dotenv';
+
+
 function App() {
+  dotenv.config();
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
