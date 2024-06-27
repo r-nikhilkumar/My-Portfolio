@@ -10,7 +10,6 @@ const GithubProjects = () => {
       const data = await fetchProjects(); // Assume this function fetches projects from GitHub
       if (data) {
         setProjects(data);
-        console.log(data);
       }
     };
     fetchProjectsData();

@@ -21,7 +21,6 @@ import WorkExperience from "./components/WorkExperience/WorkExperience";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
-  console.log(process.env.REACT_APP_GITHUB_API_KEY)
   return (
     <div
       className="App"
