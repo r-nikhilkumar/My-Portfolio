@@ -8,7 +8,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Testimonial from "./components/Testimonials/Testimonial";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { themeContext } from "./Context";
 import { Skill } from "./components/Skill/Skill";
 import GithubProjects from "./components/githubProjects/GithubProjects";
@@ -21,6 +21,23 @@ import WorkExperience from "./components/WorkExperience/WorkExperience";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
+      const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrollPercentage = (scrollTop / scrollHeight) * 100;
+      document.querySelector('.scroll-watcher').style.transform = `scale(${scrollPercentage / 100}, 1)`;
+    };
+  
+    window.addEventListener('scroll', handleScroll);
+  
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+  
+
   return (
     <div
       className="App"

@@ -26,16 +26,14 @@
   color: var(--black);
 }
 
-.scroll-watcher{
+.scroll-watcher {
   height: 4px;
   width: 100%;
   z-index: 1000;
   position: fixed;
   background-color: var(--orange);
-  scale: 0 1;
   transform-origin: left;
-  animation: scroll-watcher linear;
-  animation-timeline: scroll();
+  transition: transform 0.25s linear;
 }
 
 @keyframes scroll-watcher {
