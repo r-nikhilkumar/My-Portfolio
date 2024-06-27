@@ -17,7 +17,6 @@ import TabLayout from "./components/TabLayout/TabLayout";
 import AppProject from "./components/AppProject/AppProject";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
 
-
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -25,18 +24,26 @@ function App() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY || document.documentElement.scrollTop;
-      const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-      const scrollPercentage = (scrollTop / scrollHeight) * 100;
-      document.querySelector('.scroll-watcher').style.transform = `scale(${scrollPercentage / 100}, 1)`;
+      const scrollHeight =
+        document.documentElement.scrollHeight -
+        document.documentElement.clientHeight;
+      const scrollPercentage = scrollHeight
+        ? (scrollTop / scrollHeight) * 100
+        : 0;
+      document.querySelector(".scroll-watcher").style.transform = `scale(${
+        scrollPercentage / 100
+      }, 1)`;
     };
-  
-    window.addEventListener('scroll', handleScroll);
-  
+
+    // Initialize the scroll watcher
+    handleScroll();
+
+    window.addEventListener("scroll", handleScroll);
+
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  
 
   return (
     <div
@@ -48,15 +55,15 @@ function App() {
     >
       <Navbar />
       <Intro />
-      <AboutMe/>
+      <AboutMe />
       <Services />
-      <Skill/>
+      <Skill />
       <Experience />
-      <WorkExperience/>
+      <WorkExperience />
       <Works />
-      <GithubProjects/>
-      <TabLayout/>
-      <AppProject/>
+      <GithubProjects />
+      <TabLayout />
+      <AppProject />
       <Testimonial />
       <Contact />
       <Footer />
