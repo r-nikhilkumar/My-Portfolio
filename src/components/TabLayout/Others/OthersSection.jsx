@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./OthersSection.css";
+import { themeContext } from "../../../Context";
 
 const OthersSection = () => {
   return (

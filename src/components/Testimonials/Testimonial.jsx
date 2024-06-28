@@ -24,7 +24,7 @@ const Testimonial = () => {
     {
       img: profilePic3,
       review:
-        "",
+        "Nikhil Kumar delivered an outstanding app with excellent functionality and user-friendly design. His expertise in full-stack development ensured top-quality results. Highly recommended!",
     },
   ];
 
