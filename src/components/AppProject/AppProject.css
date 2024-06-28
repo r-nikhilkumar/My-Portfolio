@@ -55,8 +55,9 @@
 }
 
 .center .details {
-    font-size: 1rem;
-    color: var(--grey);
+    font-weight: 100;
+    font-size: 0.8rem;
+    color: var(--gray);
 }
 
 .center .details a {
