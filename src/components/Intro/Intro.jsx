@@ -45,7 +45,7 @@ const Intro = () => {
               "Competitive Programmer",
               2000,
               "",
-              "Data Structures and Algorithms Enthusiasts",
+              "Data Structures and Algorithms Enthusiast",
               2000,
               "",
               1000,
