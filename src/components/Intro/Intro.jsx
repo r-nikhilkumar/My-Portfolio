@@ -38,10 +38,13 @@ const Intro = () => {
               2000,
               "",
               1000,
-              "Artificial Intelligence Specialised",
+              "Specialised in Artificial Intelligence and Machine Learning",
               2000,
               "",
               1000,
+              "Competitive Programmer",
+              2000,
+              "",
               "Data Structures and Algorithms Enthusiasts",
               2000,
               "",
@@ -87,7 +90,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Best" text2="Developer" />
+          <FloatinDiv img={crown} text1="Rising" text2="Developer" />
         </motion.div>
 
         {/* animation */}
@@ -100,8 +103,8 @@ const Intro = () => {
           {/* floatinDiv mein change hy dark mode ka */}
           <FloatinDiv
             img={thumbup}
-            text1="Data Structures and Algorithms"
-            text2="Enthusiast"
+            text1="Elite"
+            text2="Competitive Programmer"
           />
         </motion.div>
 
