@@ -2,14 +2,14 @@ import React, { useContext, useState } from "react";
 import "./Services.css";
 import Card from "../Card/Card";
 import HeartEmoji from "../../img/heartemoji.png";
-import HeartEye from "../../img/hearteye.png"
+import HeartEye from "../../img/hearteye.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from "./resume.pdf";
+import Resume from "./resume2.pdf";
 import Dialog from "../Dialog/Dialog";
-import downloadPng from "../../img/download.png"
+import downloadPng from "../../img/download.png";
 
 const Services = () => {
   // context
@@ -28,11 +28,10 @@ const Services = () => {
     {
       emoji: HeartEye,
       heading: "Founder",
-      detail:
-        "Awekon- A virtual reality based content media application",
+      detail: "Awekon- A virtual reality based content media application",
       initial: { left: "25rem", top: "0rem" },
       animate: { left: "14rem", top: "0rem" },
-      link: "https://github.com/orgs/Awekon/"
+      link: "https://github.com/orgs/Awekon/",
     },
     {
       emoji: HeartEmoji,
@@ -44,7 +43,8 @@ const Services = () => {
     {
       emoji: Glasses,
       heading: "Web Developer",
-      detail: "Html, Css, JavaScript, typescript, React.js, Node.js, Express.js, Django",
+      detail:
+        "Html, Css, JavaScript, typescript, React.js, Node.js, Express.js, Django",
       initial: { left: "-11rem", top: "12rem" },
       animate: { left: "-4rem", top: "12rem" },
     },
@@ -74,7 +74,11 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <span>
-        Here are the services I offer as a Machine Learning Engineer,<br/> Full Stack Developer, App Developer, and competitive programmer.<br/> I provide comprehensive solutions and innovative approaches<br/> across these domains to meet diverse technological challenges.
+          Here are the services I offer as a Machine Learning Engineer,
+          <br /> Full Stack Developer, App Developer, and competitive
+          programmer.
+          <br /> I provide comprehensive solutions and innovative approaches
+          <br /> across these domains to meet diverse technological challenges.
         </span>
         <button className="button s-button" onClick={handleDownloadClick}>
           My Resume
@@ -90,9 +94,7 @@ const Services = () => {
             whileInView={card.animate}
             transition={transition}
           >
-            <Card
-              {...card}
-            />
+            <Card {...card} />
           </motion.div>
         ))}
         <div
@@ -102,16 +104,26 @@ const Services = () => {
       </div>
       {/* Dialog for CV */}
       <Dialog show={showDialog} onClose={handleCloseDialog}>
-      <iframe
+        <iframe
           src={Resume}
           title="CV Viewer"
           className="iframe-responsive"
         ></iframe>
         <center>
-          <a href="https://docs.google.com/document/d/1nrqA7WI_ESLLqFptSSl0DYa5gK-Z99FM/export?format=pdf" style={{zIndex:"1"}} download>
-            <button className="button s-button" style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
-              <img src={downloadPng} alt="⬇️" height={20} />
-              {" "}Download
+          <a
+            href="https://www.overleaf.com/project/668a2c199800839cf220c6b7/output/output.pdf"
+            style={{ zIndex: "1" }}
+            download
+          >
+            <button
+              className="button s-button"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <img src={downloadPng} alt="⬇️" height={20} /> Download
             </button>
           </a>
         </center>
