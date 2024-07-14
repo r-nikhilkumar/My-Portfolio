@@ -16,7 +16,7 @@ const GithubProjects = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{marginTop:"15vmin"}}>
       <GithubProjectCarousel projects={projects} />
     </div>
   );

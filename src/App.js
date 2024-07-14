@@ -61,8 +61,8 @@ function App() {
       <Experience />
       <WorkExperience />
       <Works />
-      <GithubProjects />
       <TabLayout />
+      <GithubProjects />
       <AppProject />
       <Testimonial />
       <Contact />

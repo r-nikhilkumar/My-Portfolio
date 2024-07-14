@@ -29,11 +29,11 @@ const GithubProjectCard = ({ project }) => {
   return (
     <div className="gitproject-card" style={style}>
       <div className="project-details">
-        <h2 className="project-title">{truncateDescription(project.name, 3, "-")}</h2>
+        <h3 className="project-title">{truncateDescription(project.name, 3, "-")}</h3>
         <p className="project-description">
           {truncateDescription(project.description, 7, " ")}
         </p>
-        <p className="project-language">Language: {project.language??"No Language"}</p>
+        <p className="project-language">Languages: {project.language??"No Language"}</p>
       </div>
       <a
         href={project.html_url}

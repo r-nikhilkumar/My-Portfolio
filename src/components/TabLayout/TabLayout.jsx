@@ -52,12 +52,12 @@ const TabLayout = () => {
         >
           Achievements
         </button>
-        <button
+        {/* <button
           className={activeTab === "others" ? "active" : ""}
           onClick={() => handleTabClick("others")}
         >
           Others
-        </button>
+        </button> */}
       </div>
       <div className="tab-content">
         {activeTab === "projects" && <ProjectsSection />}

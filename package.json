@@ -19,8 +19,6 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "framer-motion": "^6.2.8",
-    "jquery": "^3.7.1",
-    "nodemailer": "^6.9.14",
     "react": "^17.0.2",
     "react-bootstrap": "^2.10.3",
     "react-dom": "^17.0.2",

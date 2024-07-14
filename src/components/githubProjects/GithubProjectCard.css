@@ -80,7 +80,34 @@
   margin-right: 5px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px){
+  .project-title {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: var(--orange);
+    margin-bottom: 10px;
+  }
+  
+  .project-description {
+    font-size: 0.6rem;
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 3.6em; /* Two lines of text */
+    margin-bottom: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  
+  .project-language {
+    font-size: 0.5rem;
+    color: var(--gray); /* Adjust color */
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1260px) {
   .project-title {
     font-size: 1rem;
     font-weight: bold;
@@ -101,7 +128,7 @@
   }
   
   .project-language {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: var(--gray); /* Adjust color */
     margin-bottom: 10px;
   }
