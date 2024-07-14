@@ -126,6 +126,9 @@ const Services = () => {
               <img src={downloadPng} alt="⬇️" height={20} /> Download
             </button>
           </a>
+          <div style={{fontSize:'0.6rem', color:'var(--orange)', marginTop:'12px'}}>
+          *Note: Click download to view the updated resume
+          </div>
         </center>
       </Dialog>
     </div>
