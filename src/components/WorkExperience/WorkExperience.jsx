@@ -62,6 +62,15 @@ const WorkExperience = () => {
   const timelineItems = [
     {
       year: "2024",
+      season: "July - Present",
+      imageSrc:
+        "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-13.png",
+      title: "Founder",
+      description:
+        "<b>Awekon</b> is at the forefront of augmented and virtual reality innovation. Our mission is to bridge the physical and digital worlds with immersive, cutting-edge AR/VR solutions. We cater to diverse industries, including education, healthcare, and entertainment, enhancing user experiences with interactive and impactful applications.Our community-driven platform connects developers, designers, and AR/VR enthusiasts, fostering collaboration and innovation. Led by a dynamic team, Awekon is dedicated to transforming how people interact, learn, and engage with technology. Join us in shaping the future of AR/VR.",
+    },
+    {
+      year: "2024",
       season: "March - Present",
       imageSrc:
         "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-13.png",
