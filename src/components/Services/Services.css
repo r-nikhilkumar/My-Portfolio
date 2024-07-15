@@ -2,12 +2,12 @@
   padding: 0 3rem 0 3rem;
   display: flex;
   height: 30rem;
-  margin-bottom: 8rem;
   margin-top: 9rem;
   margin-bottom: 13rem;
   /* scroll view */
   padding-top: 3rem;
 }
+
 /* left side */
 .awesome {
   display: flex;
@@ -31,12 +31,14 @@
   font-size: 14px;
   margin-top: 1rem;
 }
+
 .s-button {
   width: 8rem;
   height: 2rem;
   margin-top: 1rem;
 }
-/* right sided */
+
+/* right side */
 .cards {
   position: relative;
 }
@@ -45,6 +47,12 @@
 }
 
 /* blur */
+.s-blur1,
+.s-blur2 {
+  z-index: -50;
+  position: absolute;
+}
+
 .s-blur2 {
   left: 14rem;
   top: 8rem;
@@ -55,7 +63,7 @@
   left: -18rem;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -78,16 +86,21 @@ a{
     position: static;
   }
 
+  .blur{
+    display: none;
+  }
+
   .iframe-responsive {
     height: fit-content;
     width: fit-content;
   }
 }
+
 @media screen and (min-width: 769px) and (max-width: 1460px) {
   .services {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 3rem;
+    grid-gap: 1rem;
     height: 76rem; /* Adjust height as needed */
     padding: 0 0;
   }
@@ -98,12 +111,14 @@ a{
     grid-gap: 3rem;
     row-gap: 20rem;
   }
-
   .cards > * {
     position: static; /* Ensure cards flow in the grid */
   }
-}
 
+  .blur{
+    display: none;
+  }
+}
 
 .iframe-responsive {
   width: 80vmin;

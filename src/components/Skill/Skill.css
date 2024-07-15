@@ -1,6 +1,4 @@
 .skill {
-  padding: 30px 0;
-  margin-top: 5vmin;
   position: relative;
   box-shadow: white;
 }
@@ -59,4 +57,10 @@
   z-index: -1;
   width: 100%;
   max-width: 500px;
+}
+
+@media screen and (max-width:768px) {
+  .skill{
+    padding-top: 15vmax;
+  }
 }
