@@ -8,6 +8,7 @@ import ach3 from "../../../img/achievements/ach3.png"
 import ach4 from "../../../img/achievements/ach4.png"
 import ach5 from "../../../img/achievements/ach5.png"
 import ach6 from "../../../img/achievements/ach6.png"
+import ach7 from "../../../img/achievements/ach7.png"
 
 const AchievementsSection = () => {
   // Mock data for achievements
@@ -28,27 +29,34 @@ const AchievementsSection = () => {
     },
     {
       id: 3,
-      title: "Meta Front-End Developer Certificate",
-      imageUrl: ach5,
-      achievementUrl: "https://www.credly.com/badges/4ef11a5a-03d7-45f5-b4c7-315b9d27c5f7/linked_in_profile",
+      title: "The Full Stack, META",
+      imageUrl: ach7,
+      achievementUrl: "https://www.credly.com/badges/5d9bf297-df4e-448f-9813-8621c541b186/public_url",
       details: "Complete Front-End Development course provided by META",
     },
     {
       id: 4,
-      title: "Meta Back-End Developer Certificate",
-      imageUrl: ach4,
-      achievementUrl: "https://www.credly.com/badges/01943819-ae6a-4356-b25e-007830d17aeb/linked_in_profile",
-      details: "Complete Back-End Development course provided by META",
+      title: "Meta Front-End Developer Certificate",
+      imageUrl: ach5,
+      achievementUrl: "https://www.credly.com/badges/4ef11a5a-03d7-45f5-b4c7-315b9d27c5f7/public_url",
+      details: "Complete Front-End Development course provided by META",
     },
     {
       id: 5,
+      title: "Meta Back-End Developer Certificate",
+      imageUrl: ach4,
+      achievementUrl: "https://www.credly.com/badges/01943819-ae6a-4356-b25e-007830d17aeb/public_url",
+      details: "Complete Back-End Development course provided by META",
+    },
+    {
+      id: 6,
       title: "Supervised Machine Learning",
       imageUrl: ach2,
       achievementUrl: "https://www.coursera.org/account/accomplishments/verify/JK2EH2GVA5A3?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
       details: "Earned through coursera provided by IBM",
     },
     {
-      id: 6,
+      id: 7,
       title: "Unsupervised Machine Learning",
       imageUrl: ach3,
       achievementUrl: "https://www.coursera.org/account/accomplishments/verify/CEGYRN3TLELA",
@@ -85,14 +93,14 @@ const AchievementsSection = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 2,
         },
       },
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 2,
         },
       },

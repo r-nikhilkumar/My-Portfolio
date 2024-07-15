@@ -4,7 +4,7 @@
   position: relative;
   background-size: cover;
   background-position: center;
-  margin: auto 7px;
+  margin: auto auto;
   overflow: hidden;
   border: 3px solid var(--orangeCard);
   box-shadow: var(--boxShadow);

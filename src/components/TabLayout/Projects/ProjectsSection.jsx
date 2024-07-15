@@ -4,7 +4,12 @@ import "./ProjectsSection.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { faFacebookF, faTwitter, faInstagram, faGithub } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebookF,
+  faTwitter,
+  faInstagram,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 import Carousel from "react-multi-carousel";
 import { themeContext } from "../../../Context";
 import projImg1 from "../../../img/projectImg/project1.png";
@@ -54,39 +59,44 @@ const ProjectsSection = () => {
     },
   ];
 
-  const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
-      items: 3,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 2,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 1,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
     <div className="projects-section">
-      <Carousel
-        responsive={responsive}
-        centerMode={true}
-        className="carousel"
-        infinite
-        showDots
-        dotListClass="slick-dots" /* Add this line to apply custom dots class */
-      >
+      <Slider {...settings}>
         {projects.map((project) => (
           <ProjectCard key={project.title} project={project} />
         ))}
-      </Carousel>
+      </Slider>
     </div>
   );
 };
