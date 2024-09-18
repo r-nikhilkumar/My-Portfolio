@@ -16,6 +16,7 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import TabLayout from "./components/TabLayout/TabLayout";
 import AppProject from "./components/AppProject/AppProject";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
+import PortProjectMain from "./components/PortProjects/PortProjectMain";
 
 function App() {
   const theme = useContext(themeContext);
@@ -62,6 +63,7 @@ function App() {
       <WorkExperience />
       <Works />
       <TabLayout />
+      {/* <PortProjectMain/> */}
       <GithubProjects />
       <AppProject />
       <Testimonial />
