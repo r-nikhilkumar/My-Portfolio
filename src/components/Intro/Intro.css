@@ -4,6 +4,10 @@
   margin-top: 6rem;
 }
 
+.mypic{
+  border-bottom-right-radius: 41%;
+}
+
 /* left side styling */
 .i-left {
   display: flex;
