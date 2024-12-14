@@ -1,0 +1,313 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        },
+        "es": {
+            "title": "Portafolio",
+            "title_long_prefix": "Explora",
+            "title_long": "Mi **Portafolio**"
+        },
+        "fr": {
+            "title": "Portfolio",
+            "title_long_prefix": "Découvrez",
+            "title_long": "Mon **Portfolio**"
+        },
+        "ko": {
+            "title": "포트폴리오",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**포트폴리오**입니다"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": {"singular": "App", "plural": "Apps"},
+                        "es": {"singular": "Aplicación", "plural": "Aplicaciones"},
+                        "fr": {"singular": "Application", "plural": "Applications"},
+                        "ko": {"singular": "앱", "plural": "앱들"}
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {"singular": "Website", "plural": "Websites"},
+                        "es": {"singular": "Sitio web", "plural": "Sitios web"},
+                        "fr": {"singular": "Site web", "plural": "Sites web"},
+                        "ko": {"singular": "웹사이트", "plural": "웹사이트들"}
+                    }
+                },
+                {
+                    "id": "utilities",
+                    "locales": {
+                        "en": {"singular": "Utility", "plural": "Utilities"},
+                        "es": {"singular": "Utilidad", "plural": "Utilidades"},
+                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"},
+                        "ko": {"singular": "유틸리티", "plural": "유틸리티들"}
+                    }
+                }
+            ],
+
+            "items": [
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/project-logo-7.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/r-nikhilkumar/Fleeker"},
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://github.com/r-nikhilkumar/Fleeker/releases/tag/v1.0.0-alpha"}
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Fleeker",
+                            "text": "An android social media application built with <b>Android SDK</b>, providing efficient communication with an intuitive UI for <b>managing chats and interactions</b>.",
+                            "tags": ["Android SDK", "Android Development", "Social Media"]
+                        },
+                        "es": {
+                            "title": "Fleeker",
+                            "text": "Una aplicación de red social android construida con <b>Android SDK</b>, ofreciendo comunicación eficiente con una interfaz intuitiva para <b>gestionar chats e interacciones</b>.",
+                            "tags": ["Android SDK", "Desarrollo Android", "Redes Sociales"]
+                        },
+                        "fr": {
+                            "title": "Fleeker",
+                            "text": "Une application de médias sociaux Android construite avec <b>Android SDK</b>, offrant une communication efficace avec une interface intuitive pour <b>gérer les chats et les interactions</b>.",
+                            "tags": ["Android SDK", "Développement Android", "Réseaux sociaux"]
+                        },
+                        "ko": {
+                            "title": "Fleeker",
+                            "text": "<b>Android SDK</b>로 구축된 안드로이드 소셜 미디어 애플리케이션으로, <b>채팅 및 상호작용 관리</b>를 위한 직관적인 UI로 효율적인 소통을 제공합니다.",
+                            "tags": ["Android SDK", "안드로이드 개발", "소셜 미디어"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/project-logo-1.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/r-nikhilkumar/ExchangeNest"},
+                        {"faIcon": "fa-solid fa-link", "href": "https://exchange-nest.vercel.app/"}
+                    ],
+                    "media": {
+                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "ExchangeNest",
+                            "text": "Developed ExchangeNest, a responsive stock exchange platform, using <b>React, Redux-Toolkit, Node, and MongoDB</b>, enabling seamless user interaction with real-time data updates. Implemented JWT authentication and backend, reducing response times by 30%, enhancing user experience.",
+                            "tags": ["React.js", "Finance", "Trading", "Node.js", "RESTful API"]
+                        },
+                        "es": {
+                            "title": "ExchangeNest",
+                            "text": "Desarrollado ExchangeNest, una plataforma de intercambio de acciones responsiva, utilizando <b>React, Redux-Toolkit, Node, y MongoDB</b>, habilitando una interacción de usuario fluida con actualizaciones de datos en tiempo real. Implementado autenticación JWT y backend, reduciendo los tiempos de respuesta en un 30%, mejorando la experiencia del usuario.",
+                            "tags": ["React.js", "Finanzas", "Trading", "Node.js", "RESTful API"]
+                        },
+                        "fr": {
+                            "title": "ExchangeNest",
+                            "text": "Développé ExchangeNest, une plateforme d'échange d'actions réactive, en utilisant <b>React, Redux-Toolkit, Node, et MongoDB</b>, permettant une interaction fluide de l'utilisateur avec des mises à jour de données en temps réel. Mise en place de l'authentification JWT et du backend, réduisant les temps de réponse de 30%, améliorant ainsi l'expérience utilisateur.",
+                            "tags": ["React.js", "Finance", "Trading", "Node.js", "RESTful API"]
+                        },
+                        "ko": {
+                            "title": "ExchangeNest",
+                            "text": "실시간 데이터 업데이트와 원활한 사용자 상호작용을 가능하게 하는 <b>React, Redux-Toolkit, Node, MongoDB</b>를 사용하여 반응형 주식 거래 플랫폼인 ExchangeNest를 개발했습니다. JWT 인증 및 백엔드를 구현하여 응답 시간을 30% 단축시키고 사용자 경험을 향상시켰습니다.",
+                            "tags": ["React.js", "금융", "트레이딩", "Node.js", "RESTful API"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/project-logo-5.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/r-nikhilkumar/SecuWeb"},
+                        {"faIcon": "fa-solid fa-link", "href": "https://secuweb.vercel.app/"}
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "SecuWeb",
+                            "text": "<p>Built a web app for website security checks with 9+ parameters (e.g., <strong>SQL Injection</strong>, <strong>XSS</strong>) using <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, and <strong>RESTful API</strong>, integrating <strong>WebSocket</strong> to reduce analysis time by 25%</p>",
+                            "tags": ["PowerBI", "WebScrapping", "Node.js", "React.js"]
+                        },
+                        "es": {
+                            "title": "SecuWeb",
+                            "text": "Construido una aplicación web para revisiones de seguridad de sitios web con 9+ parámetros (e.g., <strong>Inyección SQL</strong>, <strong>XSS</strong>) utilizando <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, y <strong>RESTful API</strong>, integrando <strong>WebSocket</strong> para reducir el tiempo de análisis en un 25%",
+                            "tags": ["PowerBI", "WebScrapping", "Node.js", "React.js"]
+                        },
+                        "fr": {
+                            "title": "SecuWeb",
+                            "text": "Création d'une application web pour vérifier la sécurité des sites web avec plus de 9 paramètres (e.g., <strong>Injection SQL</strong>, <strong>XSS</strong>) en utilisant <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, et <strong>RESTful API</strong>, intégrant <strong>WebSocket</strong> pour réduire le temps d'analyse de 25%",
+                            "tags": ["PowerBI", "WebScrapping", "Node.js", "React.js"]
+                        },
+                        "ko": {
+                            "title": "SecuWeb",
+                            "text": "9개 이상의 보안 점검 항목 (예: <strong>SQL 인젝션</strong>, <strong>XSS</strong>)을 기반으로 웹사이트 보안 점검 앱을 구축했으며, <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>RESTful API</strong>를 사용하여 <strong>WebSocket</strong>을 통합하여 분석 시간을 25% 단축시켰습니다.",
+                            "tags": ["PowerBI", "WebScrapping", "Node.js", "React.js"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": "images/pictures/project-logo-5.png",
+                        "fa": "",
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "links": [
+                        { "faIcon": "fa-solid fa-github", "href": "https://github.com/r-nikhilkumar/CricBI" },
+                        { "faIcon": "fa-solid fa-link", "href": "https://app.powerbi.com/reportEmbed?reportId=38933316-52c1-4011-823e-9f55d7c7a649&autoAuth=true&ctid=2c5bdaf4-8ff2-4bd9-bd54-7c50ab219590" }
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CricBI",
+                            "text": "Built a web app for website security checks with 9+ parameters (e.g., <strong>SQL Injection</strong>, <strong>XSS</strong>) using <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, and <strong>RESTful API</strong>, integrating <strong>WebSocket</strong> to reduce analysis time by 25%",
+                            "tags": ["Security", "React", "Node", "WebSocket"]
+                        },
+                        "es": {
+                            "title": "CricBI",
+                            "text": "Construí una aplicación web para comprobar la seguridad de sitios web con más de 9 parámetros (por ejemplo, <strong>Inyección SQL</strong>, <strong>XSS</strong>) usando <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, y <strong>RESTful API</strong>, integrando <strong>WebSocket</strong> para reducir el tiempo de análisis en un 25%",
+                            "tags": ["Seguridad", "React", "Node", "WebSocket"]
+                        },
+                        "fr": {
+                            "title": "CricBI",
+                            "text": "Création d'une application web pour vérifier la sécurité des sites web avec plus de 9 paramètres (par exemple, <strong>Injection SQL</strong>, <strong>XSS</strong>) en utilisant <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong> et <strong>API RESTful</strong>, intégrant <strong>WebSocket</strong> pour réduire le temps d'analyse de 25%",
+                            "tags": ["Sécurité", "React", "Node", "WebSocket"]
+                        },
+                        "ko": {
+                            "title": "CricBI",
+                            "text": "9개 이상의 보안 점검 항목 (예: <strong>SQL 인젝션</strong>, <strong>XSS</strong>)을 기반으로 웹사이트 보안 점검 앱을 구축했으며, <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>RESTful API</strong>를 사용하여 <strong>WebSocket</strong>을 통합하여 분석 시간을 25% 단축시켰습니다.",
+                            "tags": ["보안", "React", "Node", "WebSocket"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/project-logo-4.png",
+                        "fa": "",
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "links": [
+                        { "faIcon": "fa-solid fa-github", "href": "https://github.com/r-nikhilkumar/DineLocator" },
+                        { "faIcon": "fa-solid fa-link", "href": "https://dine-locator.vercel.app" }
+                    ],
+                    "media": {
+                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "DineLocator",
+                            "text": "<p>Built a web app for website security checks with 9+ parameters (e.g., <strong>SQL Injection</strong>, <strong>XSS</strong>) using <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, and <strong>RESTful API</strong>, integrating <strong>WebSocket</strong> to reduce analysis time by 25%</p>",
+                            "tags": ["React.js", "Node.js", "Google Maps API", "RESTful API", "Redux"]
+                        },
+                        "es": {
+                            "title": "DineLocator",
+                            "text": "Construí una aplicación web para la seguridad de sitios web con más de 9 parámetros (por ejemplo, <strong>Inyección SQL</strong>, <strong>XSS</strong>) usando <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, y <strong>RESTful API</strong>, integrando <strong>WebSocket</strong> para reducir el tiempo de análisis en un 25%",
+                            "tags": ["React.js", "Node.js", "API de Google Maps", "API RESTful", "Redux"]
+                        },
+                        "fr": {
+                            "title": "DineLocator",
+                            "text": "<p>Création d'une application web pour vérifier la sécurité des sites web avec plus de 9 paramètres (par exemple, <strong>Injection SQL</strong>, <strong>XSS</strong>) en utilisant <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong> et <strong>API RESTful</strong>, intégrant <strong>WebSocket</strong> pour réduire le temps d'analyse de 25%</p>",
+                            "tags": ["React.js", "Node.js", "API Google Maps", "API RESTful", "Redux"]
+                        },
+                        "ko": {
+                            "title": "DineLocator",
+                            "text": "<p>9개 이상의 보안 점검 항목 (예: <strong>SQL 인젝션</strong>, <strong>XSS</strong>)을 기반으로 웹사이트 보안 점검 앱을 구축했으며, <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>RESTful API</strong>를 사용하여 <strong>WebSocket</strong>을 통합하여 분석 시간을 25% 단축시켰습니다.</p>",
+                            "tags": ["React.js", "Node.js", "Google Maps API", "RESTful API", "Redux"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-solid fa-truck-fast",
+                        "faColors": { "bg": "#007396", "fill": "#EEE" }
+                    },
+                    "links": [
+                        { "faIcon": "fa-brands fa-github", "href": "https://github.com/raghavkatyal01/LowLightImageEnhancement" }
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Low Light Image Enhancement",
+                            "text": "Spearheading a low-light image enhancement solution with ISRO for lunar satellite site selection, collaborating with a team of 6 people. Designed a deep learning model based on ZeroDCE, GAN, and U-Net for noise reduction and SNR enhancement using 1-2 TBs of unpaired data. Published in Machine Learning, Deep Learning, and Artificial Intelligence track (2024) at IIIT, Allahabad",
+                            "tags": ["Deep Learning", "ISRO", "Image Enhancement"]
+                        },
+                        "es": {
+                            "title": "Mejora de Imagen en Baja Luz",
+                            "text": "Liderando una solución de mejora de imagen en baja luz con ISRO para la selección de sitios para satélites lunares, colaborando con un equipo de 6 personas. Diseñé un modelo de aprendizaje profundo basado en ZeroDCE, GAN y U-Net para la reducción de ruido y la mejora de SNR utilizando de 1 a 2 TB de datos no emparejados.",
+                            "tags": ["Aprendizaje Profundo", "ISRO", "Mejora de Imagen"]
+                        },
+                        "fr": {
+                            "title": "Amélioration des Images en Faible Lumière",
+                            "text": "Dirigeant une solution d'amélioration des images en faible lumière avec ISRO pour la sélection des sites de satellites lunaires, en collaboration avec une équipe de 6 personnes. Conçu un modèle d'apprentissage profond basé sur ZeroDCE, GAN et U-Net pour la réduction du bruit et l'amélioration du rapport signal sur bruit (SNR) à l'aide de 1 à 2 To de données non appariées.",
+                            "tags": ["Apprentissage Profond", "ISRO", "Amélioration d'Image"]
+                        },
+                        "ko": {
+                            "title": "저조도 이미지 향상",
+                            "text": "ISRO와 함께 달 탐사 위성 위치 선정 작업을 위해 저조도 이미지 향상 솔루션을 이끌었으며, 6명의 팀원과 협업했습니다. ZeroDCE, GAN, U-Net 기반의 딥러닝 모델을 설계하여 1-2TB의 비매칭 데이터를 활용한 잡음 감소 및 신호 대 잡음 비(SNR) 향상 기술을 구현했습니다.",
+                            "tags": ["딥러닝", "ISRO", "이미지 향상"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

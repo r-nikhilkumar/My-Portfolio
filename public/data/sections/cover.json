@@ -1,0 +1,304 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Nikhil Kumar!**"
+        },
+
+        "es": {
+            "title": "¡Saludos!",
+            "title_menu": "Sobre mí",
+            "title_long_prefix": "Hola...",
+            "title_long": "Soy **Nikhil Kumar!**"
+        },
+
+        "fr": {
+            "title": "Salut !",
+            "title_menu": "À propos",
+            "title_long_prefix": "Salut...",
+            "title_long": "Je suis **Nikhil Kumar!**"
+        },
+
+        "ko": {
+            "title": "환영합니다!",
+            "title_menu": "소개",
+            "title_long_prefix": "안녕하세요...",
+            "title_long": "저는 **Nikhil Kumar** 입니다!"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "es": {},
+                "fr": {},
+                "ko": {}
+            },
+
+            "items": [
+                {
+                    "value": "Delhi, India",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "thenikhilkumar1@gmail.com",
+                    "links": [
+                        {"href": "mailto:thenikhilkumar1@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@r-nikhilkumar",
+                    "links": [
+                        {"href": "https://github.com/r-nikhilkumar"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@r--nikhilkumar",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/r--nikhilkumar/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linkedin",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."},
+                "es": {"title": "**Un poco** sobre mí..."},
+                "fr": {"title": "**Un peu** à propos de moi..."},
+                "ko": {"title": "저에 **대해 조금**..."}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "text": "<p>I'm a passionate web and app developer, with expertise in building dynamic and intuitive applications using React, Flutter, and Django. When I'm not coding, you’ll find me solving challenging problems in competitive programming. With a 1842 rating on LeetCode and a 1055 rating on Codeforces, I thrive on tackling complex algorithms and continuously pushing the limits of my skills. Let's build something amazing together!</p>"
+                        },
+                        "es": {
+                            "text": "<p>Soy un apasionado desarrollador web y de aplicaciones, con experiencia en la creación de aplicaciones dinámicas e intuitivas utilizando React, Flutter y Django. Cuando no estoy programando, me encontrarás resolviendo problemas desafiantes en programación competitiva. Con una calificación de 1842 en LeetCode y una calificación de 1055 en Codeforces, disfruto enfrentar algoritmos complejos y seguir superando los límites de mis habilidades. ¡Construyamos algo increíble juntos!</p>"
+                        },
+                        "fr": {
+                            "text": "<p>Je suis un développeur web et d'applications passionné, spécialisé dans la création d'applications dynamiques et intuitives avec React, Flutter et Django. Quand je ne code pas, vous me trouverez en train de résoudre des problèmes complexes de programmation compétitive. Avec une note de 1842 sur LeetCode et une note de 1055 sur Codeforces, j'adore relever des défis algorithmiques et repousser sans cesse les limites de mes compétences. Créons quelque chose d'incroyable ensemble !</p>"
+                        },
+                        "ko": {
+                            "text": "<p>저는 React, Flutter 및 Django를 사용하여 역동적이고 직관적인 애플리케이션을 개발하는 웹 및 앱 개발자입니다. 코딩을 하지 않을 때는 경쟁 프로그래밍에서 어려운 문제를 풀고 있습니다. LeetCode에서 1842점, Codeforces에서 1055점을 자랑하며 복잡한 알고리즘에 도전하는 것을 즐깁니다. 함께 멋진 것을 만들어 봅시다!</p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **interests**"},
+                "es": { "title": "Intereses **personales**" },
+                "fr": { "title": "Intérêts **personnels** " },
+                "ko": { "title": "개인 **관심사**" }
+            },
+
+            "items": [
+            {
+                "icon": {
+                    "img": null,
+                    "fa": "fa-solid fa-chess",
+                    "faColors": null
+                },
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Playing Chess",
+                        "info": "Exploring different genres and improving my skills."
+                    },
+                    "es": {
+                        "title": "Jugar al Ajedrez",
+                        "info": "Explorando diferentes géneros y mejorando mis habilidades."
+                    },
+                    "fr": {
+                        "title": "Jouer aux Échecs",
+                        "info": "Explorer différents genres et améliorer mes compétences."
+                    },
+                    "ko": {
+                        "title": "체스 게임",
+                        "info": "다양한 장르를 탐험하고 기술을 향상시키기."
+                    }
+                }
+            },
+            {
+                "icon": {
+                    "img": null,
+                    "fa": "fa-solid fa-table-tennis",
+                    "faColors": null
+                },
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Table Tennis",
+                        "info": "Sharpening reflexes and strategy through regular practice."
+                    },
+                    "es": {
+                        "title": "Tenis de Mesa",
+                        "info": "Afianzando mis reflejos y estrategias a través de la práctica regular."
+                    },
+                    "fr": {
+                        "title": "Tennis de Table",
+                        "info": "Aiguiser mes réflexes et stratégies grâce à une pratique régulière."
+                    },
+                    "ko": {
+                        "title": "탁구",
+                        "info": "정기적인 연습을 통해 반사 신경과 전략을 향상시키기."
+                    }
+                }
+            },
+            {
+                "icon": {
+                    "img": null,
+                    "fa": "fa-solid fa-book",
+                    "faColors": null
+                },
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Reading Books",
+                        "info": "Enjoying fiction and non-fiction books to broaden my knowledge."
+                    },
+                    "es": {
+                        "title": "Leer Libros",
+                        "info": "Disfrutando de libros de ficción y no ficción para ampliar mi conocimiento."
+                    },
+                    "fr": {
+                        "title": "Lecture de Livres",
+                        "info": "Apprécier les livres de fiction et de non-fiction pour élargir mes connaissances."
+                    },
+                    "ko": {
+                        "title": "독서",
+                        "info": "지식을 넓히기 위해 소설과 비소설 책을 즐기기."
+                    }
+                }
+            },
+            {
+                "icon": {
+                    "img": null,
+                    "fa": "fa-solid fa-swimmer",
+                    "faColors": null
+                },
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Swimming",
+                        "info": "Staying fit and relaxed by swimming regularly."
+                    },
+                    "es": {
+                        "title": "Natación",
+                        "info": "Manteniéndome en forma y relajado nadando regularmente."
+                    },
+                    "fr": {
+                        "title": "Natation",
+                        "info": "Rester en forme et détendu en nageant régulièrement."
+                    },
+                    "ko": {
+                        "title": "수영",
+                        "info": "정기적으로 수영하여 건강을 유지하고 휴식을 취하기."
+                    }
+                }
+            },
+            {
+                "icon": {
+                    "img": null,
+                    "fa": "fa-solid fa-code",
+                    "faColors": null
+                },
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Programming",
+                        "info": "Building projects and solving problems using various programming languages."
+                    },
+                    "es": {
+                        "title": "Programación",
+                        "info": "Construyendo proyectos y resolviendo problemas usando diversos lenguajes de programación."
+                    },
+                    "fr": {
+                        "title": "Programmation",
+                        "info": "Construire des projets et résoudre des problèmes avec divers langages de programmation."
+                    },
+                    "ko": {
+                        "title": "프로그래밍",
+                        "info": "다양한 프로그래밍 언어를 사용하여 프로젝트를 구축하고 문제를 해결하기."
+                    }
+                }
+            },
+            {
+                "icon": {
+                    "img": null,
+                    "fa": "fa-solid fa-gamepad",
+                    "faColors": null
+                },
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Video Games",
+                        "info": "Exploring new gaming worlds and enhancing my reflexes and strategy."
+                    },
+                    "es": {
+                        "title": "Videojuegos",
+                        "info": "Explorando nuevos mundos de juegos y mejorando mis reflejos y estrategias."
+                    },
+                    "fr": {
+                        "title": "Jeux Vidéo",
+                        "info": "Explorer de nouveaux mondes de jeux et améliorer mes réflexes et stratégies."
+                    },
+                    "ko": {
+                        "title": "비디오 게임",
+                        "info": "새로운 게임 세계를 탐험하고 반사 신경과 전략을 향상시키기."
+                    }
+                }
+            }
+        ]
+
+        }
+    ]
+}

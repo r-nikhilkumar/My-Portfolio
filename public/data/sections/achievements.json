@@ -1,0 +1,409 @@
+{
+    "locales": {
+        "en": {
+            "title": "Awards",
+            "title_menu": "Achievements",
+            "title_long_prefix": "Here are my",
+            "title_long": "Career **Achievements**"
+        },
+
+        "es": {
+            "title": "Logros",
+            "title_menu": "Logros",
+            "title_long_prefix": "Aquí están mis",
+            "title_long": "**Logros** Profesionales"
+        },
+
+        "fr": {
+            "title": "Réalis",
+            "title_menu": "Réalisations",
+            "title_long_prefix": "Voici",
+            "title_long": "Mes **Réalisations**"
+        },
+
+        "ko": {
+            "title": "경력 성과",
+            "title_menu": "경력 성과",
+            "title_long_prefix": "다음은",
+            "title_long": "**경력 성과**입니다"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "certifications",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {
+                "en": { "title": "Certifications" },
+                "es": { "title": "Certificaciones" },
+                "fr": { "title": "Certifications" },
+                "ko": { "title": "인증서" }
+            },
+
+            "items": [
+            {
+                "icon": {
+                    "img": null,
+                    "fa": "fa-solid fa-code",
+                    "faColors": {"bg": "#326CE5", "fill": "#EEE"}
+                },
+                "dates": {
+                    "start": null,
+                    "end": null
+                },
+                "links": [
+                    { "string": "see_certification", "href": "https://www.coursera.org/account/accomplishments/specialization/A2DLGAC8QRGG" }
+                ],
+                "locales": {
+                    "en": {
+                        "title": "Data Structures and Algorithms",
+                        "text": "Complete Data Structures and Algorithms by UC San Diego"
+                    },
+                    "es": {
+                        "text": "Estructuras de Datos y Algoritmos por UC San Diego"
+                    },
+                    "fr": {
+                        "text": "Structures de données et algorithmes par UC San Diego"
+                    },
+                    "ko": {
+                        "text": "UC San Diego의 데이터 구조 및 알고리즘 완성"
+                    }
+                }
+            },
+            {
+                "icon": {
+                    "img": null,
+                    "fa": "fa-solid fa-laptop-code",
+                    "faColors": {"bg": "#FFD700", "fill": "#111"}
+                },
+                "dates": {
+                    "start": null,
+                    "end": null
+                },
+                "links": [
+                    { "string": "see_certification", "href": "https://www.credly.com/badges/5d9bf297-df4e-448f-9813-8621c541b186/public_url" }
+                ],
+                "locales": {
+                    "en": {
+                        "title": "The Full Stack, META",
+                        "text": "Complete Front-End Development course provided by META"
+                    },
+                    "es": {
+                        "text": "El Full Stack, META - Curso completo de desarrollo front-end por META"
+                    },
+                    "fr": {
+                        "text": "Le Full Stack, META - Cours complet de développement front-end par META"
+                    },
+                    "ko": {
+                        "text": "META의 프론트엔드 개발 과정 완성"
+                    }
+                }
+            },
+            {
+                "icon": {
+                    "img": null,
+                    "fa": "fa-solid fa-desktop",
+                    "faColors": {"bg": "#007396", "fill": "#EEE"}
+                },
+                "dates": {
+                    "start": null,
+                    "end": null
+                },
+                "links": [
+                    { "string": "see_certification", "href": "https://www.credly.com/badges/4ef11a5a-03d7-45f5-b4c7-315b9d27c5f7/public_url" }
+                ],
+                "locales": {
+                    "en": {
+                        "title": "Meta Front-End Developer Certificate",
+                        "text": "Complete Front-End Development course provided by META"
+                    },
+                    "es": {
+                        "text": "Certificado de Desarrollador Front-End de Meta"
+                    },
+                    "fr": {
+                        "text": "Certificat de développeur Front-End de Meta"
+                    },
+                    "ko": {
+                        "text": "META 프론트엔드 개발자 자격증"
+                    }
+                }
+            },
+            {
+                "icon": {
+                    "img": null,
+                    "fa": "fa-solid fa-server",
+                    "faColors": {"bg": "#47A248", "fill": "#EEE"}
+                },
+                "dates": {
+                    "start": null,
+                    "end": null
+                },
+                "links": [
+                    { "string": "see_certification", "href": "https://www.credly.com/badges/01943819-ae6a-4356-b25e-007830d17aeb/public_url" }
+                ],
+                "locales": {
+                    "en": {
+                        "title": "Meta Back-End Developer Certificate",
+                        "text": "Complete Back-End Development course provided by META"
+                    },
+                    "es": {
+                        "text": "Certificado de Desarrollador Back-End de Meta"
+                    },
+                    "fr": {
+                        "text": "Certificat de développeur Back-End de Meta"
+                    },
+                    "ko": {
+                        "text": "META 백엔드 개발자 자격증"
+                    }
+                }
+            },
+            {
+                "icon": {
+                    "img": null,
+                    "fa": "fa-solid fa-microchip",
+                    "faColors": {"bg": "#1F7C3A", "fill": "#EEE"}
+                },
+                "dates": {
+                    "start": null,
+                    "end": null
+                },
+                "links": [
+                    { "string": "see_certification", "href": "https://www.coursera.org/account/accomplishments/verify/JK2EH2GVA5A3?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" }
+                ],
+                "locales": {
+                    "en": {
+                        "title": "Supervised Machine Learning",
+                        "text": "Earned through coursera provided by IBM"
+                    },
+                    "es": {
+                        "text": "Aprendizaje supervisado de máquinas, obtenido a través de Coursera proporcionado por IBM"
+                    },
+                    "fr": {
+                        "text": "Apprentissage supervisé des machines, obtenu par Coursera fourni par IBM"
+                    },
+                    "ko": {
+                        "text": "IBM에서 제공한 Coursera를 통해 슈퍼바이즈드 머신러닝 자격증"
+                    }
+                }
+            },
+            {
+                "icon": {
+                    "img": null,
+                    "fa": "fa-solid fa-brain",
+                    "faColors": {"bg": "#FF6347", "fill": "#EEE"}
+                },
+                "dates": {
+                    "start": null,
+                    "end": null
+                },
+                "links": [
+                    { "string": "see_certification", "href": "https://www.coursera.org/account/accomplishments/verify/CEGYRN3TLELA" }
+                ],
+                "locales": {
+                    "en": {
+                        "title": "Unsupervised Machine Learning",
+                        "text": "Earned through coursera provided by IBM"
+                    },
+                    "es": {
+                        "text": "Aprendizaje no supervisado de máquinas, obtenido a través de Coursera proporcionado por IBM"
+                    },
+                    "fr": {
+                        "text": "Apprentissage non supervisé des machines, obtenu par Coursera fourni par IBM"
+                    },
+                    "ko": {
+                        "text": "IBM에서 제공한 Coursera를 통해 언슈퍼바이즈드 머신러닝 자격증"
+                    }
+                }
+            }
+        ]
+
+        },
+
+        {
+            "id": "awards",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": { "title": "Awards" },
+                "es": { "title": "Premios" },
+                "fr": { "title": "Récompenses" },
+                "ko": { "title": "수상 내역" }
+            },
+
+            "items": [
+                {
+                    "dates": {
+                        "start": "08/10/2024",
+                        "end": null
+                    },
+                    "links": [
+                        {
+                            "string": "more_info",
+                            "href": "https://drive.google.com/file/d/10ZdLWiVAodFhIk9zxhuDG1NcsfEsFgKX/view?usp=sharing"
+                        }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Meta Hacker Cup** – Qualified Round 2",
+                            "info": "Meta Platforms, Inc.",
+                            "text": "Advanced to Round 2 of Meta's prestigious global coding competition, showcasing expertise in algorithmic problem-solving."
+                        },
+                        "es": {
+                            "title": "**Meta Hacker Cup** – Clasificado en la Ronda 2",
+                            "info": "Meta Platforms, Inc.",
+                            "text": "Avanzó a la Ronda 2 de la prestigiosa competencia global de codificación de Meta, demostrando experiencia en resolución algorítmica de problemas."
+                        },
+                        "fr": {
+                            "title": "**Meta Hacker Cup** – Qualifié pour le 2ème Tour",
+                            "info": "Meta Platforms, Inc.",
+                            "text": "Qualifié pour le 2ème tour de la prestigieuse compétition mondiale de codage de Meta, démontrant une expertise en résolution algorithmique."
+                        },
+                        "ko": {
+                            "title": "**메타 해커 컵** – 2라운드 진출",
+                            "info": "Meta Platforms, Inc.",
+                            "text": "알고리즘 문제 해결 전문성을 보여주며 메타의 글로벌 코딩 대회 2라운드에 진출."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "12/12/2022",
+                        "end": null
+                    },
+                    "links": [
+                        {
+                            "string": "more_info",
+                            "href": "https://auth.geeksforgeeks.org/user/nikhilkumar/profile"
+                        }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**SPIN THE CODE** – 2022",
+                            "info": "GeeksforGeeks",
+                            "text": "Recognized as a top coder for solving complex coding challenges in programming contest organised by GFG."
+                        },
+                        "es": {
+                            "title": "**GeeksforGeeks (GFG)** – Contribuyente Destacado",
+                            "info": "Plataforma GeeksforGeeks",
+                            "text": "Reconocido como un contribuyente destacado por escribir artículos de alta calidad y resolver desafíos de codificación complejos en GFG."
+                        },
+                        "fr": {
+                            "title": "**GeeksforGeeks (GFG)** – Contributeur en Vedette",
+                            "info": "Plateforme GeeksforGeeks",
+                            "text": "Reconnu comme un contributeur de premier plan pour avoir écrit des articles de haute qualité et résolu des défis de codage complexes sur GFG."
+                        },
+                        "ko": {
+                            "title": "**GeeksforGeeks (GFG)** – 기여자 특집",
+                            "info": "GeeksforGeeks 플랫폼",
+                            "text": "고품질 기사 작성 및 복잡한 코딩 문제 해결로 GFG의 주요 기여자로 인정받음."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "07/01/2023",
+                        "end": null
+                    },
+                    "links": [
+                        {
+                            "string": "more_info",
+                            "href": null
+                        }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Smart India Hackathon (SIH)** - College Winner",
+                            "info": "Government of India",
+                            "text": "Won SIH 2023 for building a groundbreaking AI-driven healthcare solution."
+                        },
+                        "es": {
+                            "title": "**Hackathon de la India Inteligente (SIH)** – Ganador",
+                            "info": "Gobierno de la India",
+                            "text": "Ganó el SIH 2023 desarrollando una innovadora solución sanitaria impulsada por IA."
+                        },
+                        "fr": {
+                            "title": "**Smart India Hackathon (SIH)** – Gagnant",
+                            "info": "Gouvernement de l'Inde",
+                            "text": "A remporté le SIH 2023 pour avoir créé une solution de santé révolutionnaire basée sur l'IA."
+                        },
+                        "ko": {
+                            "title": "**스마트 인디아 해커톤 (SIH)** – 우승자",
+                            "info": "인도 정부",
+                            "text": "혁신적인 AI 기반 의료 솔루션 개발로 SIH 2023 우승."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "01/15/2024",
+                        "end": null
+                    },
+                    "links": [
+                        {
+                            "string": "more_info",
+                            "href": null
+                        }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Low Light Image Enhancement for Lunar Images** – Research Publication",
+                            "info": "Published Research",
+                            "text": "Published research paper 'ZRENet: Enhancement of Low Light Night Images to Day Images,' introducing a novel method for enhancing lunar surface images using zero reference enhancement techniques."
+                        },
+                        "es": {
+                            "title": "**Mejora de Imágenes con Poca Luz para Imágenes Lunares** – Publicación de Investigación",
+                            "info": "Investigación Publicada",
+                            "text": "Publicó el artículo de investigación 'ZRENet: Enhancement of Low Light Night Images to Day Images,' presentando un método novedoso para mejorar imágenes de la superficie lunar utilizando técnicas de mejora sin referencia."
+                        },
+                        "fr": {
+                            "title": "**Amélioration des Images en Faible Lumière pour les Images Lunaires** – Publication de Recherche",
+                            "info": "Recherche Publiée",
+                            "text": "A publié un article de recherche 'ZRENet: Enhancement of Low Light Night Images to Day Images,' introduisant une méthode innovante pour améliorer les images de la surface lunaire à l'aide de techniques d'amélioration sans référence."
+                        },
+                        "ko": {
+                            "title": "**저조도 이미지 향상: 달 표면 이미지 사례** – 연구 논문",
+                            "info": "발표된 연구",
+                            "text": "'ZRENet: Enhancement of Low Light Night Images to Day Images'라는 연구 논문을 발표하며, 무참조 향상 기술을 사용한 달 표면 이미지 향상의 새로운 방법을 제시함."
+                        }
+                    }
+                },                
+                {
+                    "dates": {
+                        "start": "03/18/2024",
+                        "end": null
+                    },
+                    "links": [
+                        {
+                            "string": "more_info",
+                            "href": "https://drive.google.com/file/d/1tPB_oLGmjMhw0LiHf6ANqQ1kdTM8zk21/view?usp=sharing"
+                        }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Enigma'24** – First Place",
+                            "info": "Coding Competition",
+                            "text": "Secured 1st position in Enigma'24, demonstrating exceptional problem-solving and teamwork."
+                        },
+                        "es": {
+                            "title": "**Enigma'24** – Primer Lugar",
+                            "info": "Competencia de Programación",
+                            "text": "Obtuvo el primer lugar en Enigma'24, demostrando habilidades excepcionales de resolución de problemas y trabajo en equipo."
+                        },
+                        "fr": {
+                            "title": "**Enigma'24** – Première Place",
+                            "info": "Compétition de Codage",
+                            "text": "A obtenu la 1ère place dans Enigma'24, démontrant des compétences exceptionnelles en résolution de problèmes et en travail d'équipe."
+                        },
+                        "ko": {
+                            "title": "**에니그마'24** – 1위",
+                            "info": "코딩 대회",
+                            "text": "뛰어난 문제 해결 및 팀워크 능력을 발휘하여 Enigma'24에서 1위 달성."
+                        }
+                    }
+                }
+            ]
+        }
+        
+    ]
+}

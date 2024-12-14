@@ -1,0 +1,145 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+        "es": {
+            "title": "Educación",
+            "title_long_prefix": "Esta es mi",
+            "title_long": "**Formación** Educativa"
+        },
+        "fr": {
+            "title": "Éducation",
+            "title_long_prefix": "C'est mon",
+            "title_long": "**Contexte** Éducatif"
+        },
+        "ko": {
+            "title": "교육",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**교육적** 배경"
+        }
+    },
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/bennett_logo.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "09/01/2022",
+                        "end": "06/30/2026"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Bachelor** in Computer Science",
+                            "info": "Bennett University",
+                            "text": "Earned a Bachelor's degree in Computer Science, focusing on algorithms, data structures, software engineering, and web development. Gained hands-on experience through various programming projects, Hackathons and Contests.",
+                            "tags": ["Data Structures", "Algorithms", "Problem Solving"]
+                        },
+                        "es": {
+                            "title": "**Licenciatura** en Ciencias de la Computación",
+                            "info": "Bennett University",
+                            "text": "Obtuve una licenciatura en Ciencias de la Computación, con un enfoque en algoritmos, estructuras de datos, ingeniería de software y desarrollo web. Adquirí experiencia práctica a través de varios proyectos de programación, hackatones y concursos.",
+                            "tags": ["Estructuras de Datos", "Algoritmos", "Resolución de Problemas"]
+                        },
+                        "fr": {
+                            "title": "**Licence** en Informatique",
+                            "info": "Bennett University",
+                            "text": "J'ai obtenu une licence en Informatique, axée sur les algorithmes, les structures de données, l'ingénierie logicielle et le développement web. J'ai acquis une expérience pratique à travers divers projets de programmation, hackathons et concours.",
+                            "tags": ["Structures de Données", "Algorithmes", "Résolution de Problèmes"]
+                        },
+                        "ko": {
+                            "title": "**학사** 컴퓨터 과학",
+                            "info": "Bennett University",
+                            "text": "알고리즘, 데이터 구조, 소프트웨어 공학 및 웹 개발에 중점을 둔 컴퓨터 과학 학사 학위를 취득했습니다. 다양한 프로그래밍 프로젝트, 해커톤 및 콘테스트를 통해 실무 경험을 쌓았습니다.",
+                            "tags": ["데이터 구조", "알고리즘", "문제 해결"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/svm_logo.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "04/01/2019",
+                        "end": "03/31/2021"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Senior Secondary School **12**",
+                            "info": "Saraswati Vidya Mandir",
+                            "text": "Completed 12th in Science Stream with PCMB, scored 71.4%",
+                            "tags": ["Maths", "Logic", "Problem Solving"]
+                        },
+                        "es": {
+                            "title": "Escuela Secundaria Superior **12**",
+                            "info": "Saraswati Vidya Mandir",
+                            "text": "Completé el 12º grado en el área de Ciencias con PCMB, obteniendo un 71.4%",
+                            "tags": ["Matemáticas", "Lógica", "Resolución de Problemas"]
+                        },
+                        "fr": {
+                            "title": "Lycée Secondaire **12**",
+                            "info": "Saraswati Vidya Mandir",
+                            "text": "J'ai terminé ma 12e en Sciences avec PCMB, obtenant une note de 71.4%",
+                            "tags": ["Mathématiques", "Logique", "Résolution de Problèmes"]
+                        },
+                        "ko": {
+                            "title": "고등학교 **12**",
+                            "info": "Saraswati Vidya Mandir",
+                            "text": "PCMB 과목으로 과학 스트림에서 12학년을 마쳤고, 71.4%를 얻었습니다.",
+                            "tags": ["수학", "논리", "문제 해결"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/svm_logo.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "04/01/2018",
+                        "end": "03/31/2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Secondary School **10**",
+                            "info": "Saraswati Vidya Mandir",
+                            "text": "Completed 10th, scored 91.4%",
+                            "tags": []
+                        },
+                        "es": {
+                            "title": "Escuela Secundaria **10**",
+                            "info": "Saraswati Vidya Mandir",
+                            "text": "Completé el 10º grado con un 91.4%",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "Lycée Secondaire **10**",
+                            "info": "Saraswati Vidya Mandir",
+                            "text": "J'ai terminé ma 10e avec une note de 91.4%",
+                            "tags": null
+                        },
+                        "ko": {
+                            "title": "중학교 **10**",
+                            "info": "Saraswati Vidya Mandir",
+                            "text": "10학년을 마쳤고 91.4%를 얻었습니다.",
+                            "tags": null
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

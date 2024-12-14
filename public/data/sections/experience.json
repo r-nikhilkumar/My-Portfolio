@@ -1,0 +1,72 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Work** Experience"
+        },
+        "es": {
+            "title": "Experiencia",
+            "title_long_prefix": "Resumen de mi",
+            "title_long": "Experiencia **Laboral**"
+        },
+        "fr": {
+            "title": "Expérience",
+            "title_long_prefix": "Résumé de mon",
+            "title_long": "Parcours **Professionel**"
+        },
+        "ko": {
+            "title": "경험",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**직업적** 경험"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/ohc.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "06/01/2023",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Open-Source Contributor (OHC)",
+                            "info": "Open Health Care Network",
+                            "text": "<p>Contributed to the Open Health Care Network (OHC) by implementing features that improve the accessibility of healthcare tools, such as creating APIs and enhancing the integration of machine learning models for patient diagnosis and prediction.</p>\n\n<ul>\n  <li><strong>Improved user experience by 15%</strong> by fixing password validation errors, preventing reuse of current passwords while changing to new password via RESTful APIs, ensuring consistent checks with Redux. PR: #7639</li>\n  <li><strong>Enhanced data integrity and user experience by 12%</strong> by standardizing input validation for pressure sore data, aligning column lengths, and skipping invalid pain scale values using Redux-Toolkit. PR: #7391</li>\n</ul>",
+                            "tags": ["React", "Django", "Python", "Machine Learning"]
+                        },
+                        "es": {
+                            "title": "Contribuidor Open-Source (OHC)",
+                            "info": "Open Health Care Network",
+                            "text": "<p>Contribuí a la Open Health Care Network (OHC) implementando funciones que mejoran la accesibilidad de las herramientas de salud, como la creación de APIs y la mejora de la integración de modelos de aprendizaje automático para diagnóstico y predicción de pacientes.</p>\n\n<ul>\n  <li><strong>Mejoré la experiencia del usuario en un 15%</strong> como desarrollador de software al corregir errores de validación de contraseñas, evitar la reutilización de contraseñas actuales al cambiar a una nueva contraseña a través de APIs RESTful, asegurando verificaciones consistentes con Redux. PR: #7639</li>\n  <li><strong>Mejoré la integridad de los datos y la experiencia del usuario en un 12%</strong> al estandarizar la validación de entradas para datos de úlceras por presión, alineando las longitudes de columna y omitiendo los valores no válidos de la escala de dolor utilizando Redux-Toolkit. PR: #7391</li>\n</ul>",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "Contributeur Open-Source (OHC)",
+                            "info": "Open Health Care Network",
+                            "text": "<p>J'ai contribué à l'Open Health Care Network (OHC) en mettant en œuvre des fonctionnalités qui améliorent l'accessibilité des outils de santé, comme la création d'APIs et l'amélioration de l'intégration des modèles d'apprentissage automatique pour le diagnostic et la prédiction des patients.</p>\n\n<ul>\n  <li><strong>Amélioration de l'expérience utilisateur de 15%</strong> en tant que développeur logiciel en corrigeant les erreurs de validation des mots de passe, en empêchant la réutilisation des mots de passe actuels lors du changement pour un nouveau mot de passe via des APIs RESTful, assurant des contrôles cohérents avec Redux. PR: #7639</li>\n  <li><strong>Amélioration de l'intégrité des données et de l'expérience utilisateur de 12%</strong> en normalisant la validation des entrées pour les données des plaies de pression, en alignant les longueurs de colonnes et en sautant les valeurs de l'échelle de douleur invalides en utilisant Redux-Toolkit. PR: #7391</li>\n</ul>",
+                            "tags": null
+                        },
+                        "ko": {
+                            "title": "오픈소스 기여자 (OHC)",
+                            "info": "Open Health Care Network",
+                            "text": "<p>환자 진단 및 예측을 위한 기계 학습 모델 통합을 개선하고 API를 구현하여 건강 관리 도구의 접근성을 향상시킨 Open Health Care Network (OHC)에 기여하였습니다.</p>\n\n<ul>\n  <li><strong>소프트웨어 개발자로서 비밀번호 유효성 검사 오류를 수정하고, RESTful API를 통해 새 비밀번호로 변경할 때 현재 비밀번호 재사용을 방지하며, Redux를 사용하여 일관된 검사를 보장하여 사용자 경험을 15% 향상시켰습니다</strong>. PR: #7639</li>\n  <li><strong>압력 상처 데이터에 대한 입력 유효성 검사를 표준화하고, 열 길이를 정렬하며, Redux-Toolkit을 사용하여 유효하지 않은 통증 척도 값을 건너뛰는 방식으로 데이터 무결성과 사용자 경험을 12% 향상시켰습니다</strong>. PR: #7391</li>\n</ul>",
+                            "tags": null
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

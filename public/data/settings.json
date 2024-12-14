@@ -1,0 +1,84 @@
+{
+    "version": "1.0.0",
+    "animatedCursorEnabled": true,
+    "fullScreenButtonEnabled": true,
+
+    "preloader": {
+        "enabled": true,
+        "title": "<b>Nikhil Kumar's Portfolio</b>",
+        "subtitle": "by Nikhil Kumar"
+    },
+
+    "profile": {
+        "name": "Nikhil Kumar",
+        "stylizedName": "<strong>Nikhil **Kumar**</strong>",
+        "logoUrl": "images/svg/logo.svg",
+        "profilePictureUrl": "images/pictures/mypic.jpg",
+
+        "locales": {
+            "en": {"role": "Software Engineer"},
+            "es": {"role": "Ingeniero de Software"},
+            "fr": {"role": "Ingénieur en logiciel"},
+            "ko": {"role": "소프트웨어 엔지니어"}
+        }
+    },
+
+    "status": {
+        "visible": true,
+        "available": true,
+
+        "locales": {
+            "en": {"message": "Available for freelance!"},
+            "es": {"message": "¡Disponible para freelance!"},
+            "fr": {"message": "Disponible pour freelance !"},
+            "ko": {"message": "프리랜스 가능합니다!"}
+        }
+    },
+
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "default": true,
+            "icon": "fa-solid fa-moon"
+        },
+
+        {
+            "id": "light",
+            "default": false,
+            "icon": "fa-solid fa-sun"
+        }
+    ],
+
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en.png",
+            "default": true
+        },
+
+        {
+            "name": "Español",
+            "id": "es",
+            "flagUrl": "images/flags/es.png"
+        },
+
+        {
+            "name": "Français",
+            "id": "fr",
+            "flagUrl": "images/flags/fr.png"
+        },
+
+        {
+            "name": "한국어",
+            "id": "ko",
+            "flagUrl": "images/flags/ko.png"
+        }
+    ],
+
+    "emailjs": {
+        "publicKey": "abc",
+        "serviceId": "service_uiln5wb",
+        "templateId": "abc"
+    }
+}
