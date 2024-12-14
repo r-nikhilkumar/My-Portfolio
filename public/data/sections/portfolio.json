@@ -193,7 +193,7 @@
                         "faColors": { "bg": null, "fill": null }
                     },
                     "links": [
-                        { "faIcon": "fa-solid fa-github", "href": "https://github.com/r-nikhilkumar/CricBI" },
+                        { "faIcon": "fa-brands fa-github", "href": "https://github.com/r-nikhilkumar/CricBI" },
                         { "faIcon": "fa-solid fa-link", "href": "https://app.powerbi.com/reportEmbed?reportId=38933316-52c1-4011-823e-9f55d7c7a649&autoAuth=true&ctid=2c5bdaf4-8ff2-4bd9-bd54-7c50ab219590" }
                     ],
                     "media": {
@@ -234,7 +234,7 @@
                         "faColors": { "bg": null, "fill": null }
                     },
                     "links": [
-                        { "faIcon": "fa-solid fa-github", "href": "https://github.com/r-nikhilkumar/DineLocator" },
+                        { "faIcon": "fa-brands fa-github", "href": "https://github.com/r-nikhilkumar/DineLocator" },
                         { "faIcon": "fa-solid fa-link", "href": "https://dine-locator.vercel.app" }
                     ],
                     "media": {
