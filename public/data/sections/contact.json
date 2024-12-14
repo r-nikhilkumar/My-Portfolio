@@ -91,7 +91,7 @@
                 {
                     "value": "@r--nikhilkumar",
                     "links": [
-                        {"href": "https://www.linkedin.com/in/r-nikhilkumar/"}
+                        {"href": "https://www.linkedin.com/in/r--nikhilkumar/"}
                     ],
                     "icon": {
                         "img": null,
@@ -100,6 +100,20 @@
                     },
                     "locales": {
                         "en": {"title": "Linkedin"}
+                    }
+                },
+                {
+                    "value": "@r-nikhilkumar",
+                    "links": [
+                        {"href": "https://github.com/r-nikhilkumar/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Github"}
                     }
                 },
 
