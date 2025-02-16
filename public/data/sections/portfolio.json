@@ -61,7 +61,7 @@
 
       "items": [
         {
-          "categoryId": "apps",
+          "categoryId": "websites",
           "icon": {
             "img": "images/pictures/project-logo-3.png",
             "fa": "",
@@ -162,7 +162,7 @@
           }
         },
         {
-          "categoryId": "websites",
+          "categoryId": "apps",
           "icon": {
             "img": "images/pictures/project-logo-7.png",
             "fa": "",
