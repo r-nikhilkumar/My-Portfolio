@@ -19,7 +19,7 @@ export const ThemeProvider = ({children}) => {
     useEffect(() => {
         const savedThemeId = window.localStorage.getItem(localStorageName)
         const savedTheme = allThemes.find(theme => theme.id === savedThemeId)
-        const defaultTheme = allThemes.find(theme => theme.default) || allThemes[0]
+        const defaultTheme = allThemes.find(theme => theme.default) || allThemes[1]
 
         selectTheme(savedTheme || defaultTheme)
     }, [])
