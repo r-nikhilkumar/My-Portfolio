@@ -38,13 +38,13 @@
     "supportedThemes": [
         {
             "id": "dark",
-            "default": true,
+            "default": false,
             "icon": "fa-solid fa-moon"
         },
 
         {
             "id": "light",
-            "default": false,
+            "default": true,
             "icon": "fa-solid fa-sun"
         }
     ],
