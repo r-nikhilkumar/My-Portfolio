@@ -22,7 +22,7 @@
         }
     },
     "articles": [
-        
+        {
             "id": "work",
             "component": "ArticleTimeline",
             "config": {},
