@@ -16,10 +16,10 @@
         "profilePictureUrl": "images/pictures/mypic.jpg",
 
         "locales": {
-            "en": {"role": "Software Engineer"},
-            "es": {"role": "Ingeniero de Software"},
-            "fr": {"role": "Ingénieur en logiciel"},
-            "ko": {"role": "소프트웨어 엔지니어"}
+            "en": {"role": "Software Engineer at Zomato"},
+            "es": {"role": "Ingeniero de Software en Zomato"},
+            "fr": {"role": "Ingénieur en logiciel chez Zomato"},
+            "ko": {"role": "Zomato의 소프트웨어 엔지니어"}
         }
     },
 
