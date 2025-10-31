@@ -21,50 +21,154 @@
             "title_long": "**직업적** 경험"
         }
     },
-
     "articles": [
-        {
+        
             "id": "work",
             "component": "ArticleTimeline",
             "config": {},
             "locales": {},
             "items": [
                 {
-                    "icon": {
-                        "img": "images/pictures/ohc.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "dates": {
-                        "start": "06/01/2023",
-                        "end": "now"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Open-Source Contributor (OHC)",
-                            "info": "Open Health Care Network",
-                            "text": "<p>Contributed to the Open Health Care Network (OHC) by implementing features that improve the accessibility of healthcare tools, such as creating APIs and enhancing the integration of machine learning models for patient diagnosis and prediction.</p>\n\n<ul>\n  <li><strong>Improved user experience by 15%</strong> by fixing password validation errors, preventing reuse of current passwords while changing to new password via RESTful APIs, ensuring consistent checks with Redux. PR: #7639</li>\n  <li><strong>Enhanced data integrity and user experience by 12%</strong> by standardizing input validation for pressure sore data, aligning column lengths, and skipping invalid pain scale values using Redux-Toolkit. PR: #7391</li>\n</ul>",
-                            "tags": ["React", "Django", "Python", "Machine Learning"]
+                    "items": [
+                        {
+                            "icon": {
+                                "img": "images/pictures/zomato.png",
+                                "fa": "",
+                                "faColors": {
+                                    "bg": null,
+                                    "fill": null
+                                }
+                            },
+                            "dates": {
+                                "start": "05/01/2025",
+                                "end": "now"
+                            },
+                            "locales": {
+                                "en": {
+                                    "title": "Software Engineer",
+                                    "info": "Zomato · Internship",
+                                    "text": "<p>Working on microservices and gRPC-based distributed systems at Zomato to enhance real-time dining and payment workflows. Focused on optimizing backend service reliability, latency, and scaling through improved architecture patterns.</p>",
+                                    "tags": [
+                                        "gRPC",
+                                        "Microservices",
+                                        "Go",
+                                        "System Design",
+                                        "Backend",
+                                        "APIs"
+                                    ]
+                                },
+                                "es": {
+                                    "title": "Ingeniero de Software",
+                                    "info": "Zomato · Pasantía",
+                                    "text": "<p>Trabajo en sistemas distribuidos basados en microservicios y gRPC en Zomato para mejorar los flujos de trabajo en tiempo real de comidas y pagos. Enfocado en optimizar la confiabilidad, latencia y escalabilidad de los servicios backend mediante patrones arquitectónicos mejorados.</p>",
+                                    "tags": null
+                                },
+                                "fr": {
+                                    "title": "Ingénieur en logiciel",
+                                    "info": "Zomato · Stage",
+                                    "text": "<p>Travaille sur des systèmes distribués basés sur les microservices et gRPC chez Zomato pour améliorer les flux de travail en temps réel liés à la restauration et aux paiements. Axé sur l'optimisation de la fiabilité, de la latence et de la mise à l'échelle des services backend grâce à des modèles d'architecture améliorés.</p>",
+                                    "tags": null
+                                },
+                                "ko": {
+                                    "title": "소프트웨어 엔지니어",
+                                    "info": "Zomato · 인턴십",
+                                    "text": "<p>Zomato에서 gRPC 기반의 마이크로서비스 분산 시스템을 개발하여 실시간 식사 및 결제 워크플로를 개선하고 있습니다. 향상된 아키텍처 패턴을 통해 백엔드 서비스의 안정성, 지연 시간 및 확장성을 최적화하는 데 집중하고 있습니다.</p>",
+                                    "tags": null
+                                }
+                            }
                         },
-                        "es": {
-                            "title": "Contribuidor Open-Source (OHC)",
-                            "info": "Open Health Care Network",
-                            "text": "<p>Contribuí a la Open Health Care Network (OHC) implementando funciones que mejoran la accesibilidad de las herramientas de salud, como la creación de APIs y la mejora de la integración de modelos de aprendizaje automático para diagnóstico y predicción de pacientes.</p>\n\n<ul>\n  <li><strong>Mejoré la experiencia del usuario en un 15%</strong> como desarrollador de software al corregir errores de validación de contraseñas, evitar la reutilización de contraseñas actuales al cambiar a una nueva contraseña a través de APIs RESTful, asegurando verificaciones consistentes con Redux. PR: #7639</li>\n  <li><strong>Mejoré la integridad de los datos y la experiencia del usuario en un 12%</strong> al estandarizar la validación de entradas para datos de úlceras por presión, alineando las longitudes de columna y omitiendo los valores no válidos de la escala de dolor utilizando Redux-Toolkit. PR: #7391</li>\n</ul>",
-                            "tags": null
+                        {
+                            "icon": {
+                                "img": "images/pictures/salescode.png",
+                                "fa": "",
+                                "faColors": {
+                                    "bg": null,
+                                    "fill": null
+                                }
+                            },
+                            "dates": {
+                                "start": "02/20/2025",
+                                "end": "04/29/2025"
+                            },
+                            "locales": {
+                                "en": {
+                                    "title": "Software Engineer",
+                                    "info": "SalesCode.ai · Full-time",
+                                    "text": "<p>Designed and developed a drag-and-drop form builder in React to generate JSON schemas for dynamic form rendering in Flutter. Leveraged Factory Design Pattern and Dependency Injection to enable a single reusable Flutter form component, reducing manual effort by 95%.</p>",
+                                    "tags": [
+                                        "React.js",
+                                        "Flutter",
+                                        "Design Patterns",
+                                        "Dependency Injection",
+                                        "UI/UX"
+                                    ]
+                                },
+                                "es": {
+                                    "title": "Ingeniero de Software",
+                                    "info": "SalesCode.ai · Tiempo completo",
+                                    "text": "<p>Diseñé y desarrollé un generador de formularios de arrastrar y soltar en React para generar esquemas JSON para el renderizado dinámico de formularios en Flutter. Aproveché el patrón de diseño Factory y la inyección de dependencias para habilitar un único componente reutilizable de Flutter, reduciendo el esfuerzo manual en un 95%.</p>",
+                                    "tags": null
+                                },
+                                "fr": {
+                                    "title": "Ingénieur en logiciel",
+                                    "info": "SalesCode.ai · Temps plein",
+                                    "text": "<p>Conçu et développé un générateur de formulaires en glisser-déposer en React pour générer des schémas JSON pour le rendu dynamique des formulaires dans Flutter. Utilisé le modèle de conception Factory et l'injection de dépendances pour permettre un composant Flutter réutilisable unique, réduisant l'effort manuel de 95%.</p>",
+                                    "tags": null
+                                },
+                                "ko": {
+                                    "title": "소프트웨어 엔지니어",
+                                    "info": "SalesCode.ai · 정규직",
+                                    "text": "<p>React에서 드래그 앤 드롭 양식 빌더를 설계 및 개발하여 Flutter에서 동적 양식 렌더링을 위한 JSON 스키마를 생성했습니다. 팩토리 디자인 패턴과 의존성 주입을 활용하여 단일 재사용 가능한 Flutter 구성 요소를 구현하여 수동 노력을 95% 줄였습니다.</p>",
+                                    "tags": null
+                                }
+                            }
                         },
-                        "fr": {
-                            "title": "Contributeur Open-Source (OHC)",
-                            "info": "Open Health Care Network",
-                            "text": "<p>J'ai contribué à l'Open Health Care Network (OHC) en mettant en œuvre des fonctionnalités qui améliorent l'accessibilité des outils de santé, comme la création d'APIs et l'amélioration de l'intégration des modèles d'apprentissage automatique pour le diagnostic et la prédiction des patients.</p>\n\n<ul>\n  <li><strong>Amélioration de l'expérience utilisateur de 15%</strong> en tant que développeur logiciel en corrigeant les erreurs de validation des mots de passe, en empêchant la réutilisation des mots de passe actuels lors du changement pour un nouveau mot de passe via des APIs RESTful, assurant des contrôles cohérents avec Redux. PR: #7639</li>\n  <li><strong>Amélioration de l'intégrité des données et de l'expérience utilisateur de 12%</strong> en normalisant la validation des entrées pour les données des plaies de pression, en alignant les longueurs de colonnes et en sautant les valeurs de l'échelle de douleur invalides en utilisant Redux-Toolkit. PR: #7391</li>\n</ul>",
-                            "tags": null
-                        },
-                        "ko": {
-                            "title": "오픈소스 기여자 (OHC)",
-                            "info": "Open Health Care Network",
-                            "text": "<p>환자 진단 및 예측을 위한 기계 학습 모델 통합을 개선하고 API를 구현하여 건강 관리 도구의 접근성을 향상시킨 Open Health Care Network (OHC)에 기여하였습니다.</p>\n\n<ul>\n  <li><strong>소프트웨어 개발자로서 비밀번호 유효성 검사 오류를 수정하고, RESTful API를 통해 새 비밀번호로 변경할 때 현재 비밀번호 재사용을 방지하며, Redux를 사용하여 일관된 검사를 보장하여 사용자 경험을 15% 향상시켰습니다</strong>. PR: #7639</li>\n  <li><strong>압력 상처 데이터에 대한 입력 유효성 검사를 표준화하고, 열 길이를 정렬하며, Redux-Toolkit을 사용하여 유효하지 않은 통증 척도 값을 건너뛰는 방식으로 데이터 무결성과 사용자 경험을 12% 향상시켰습니다</strong>. PR: #7391</li>\n</ul>",
-                            "tags": null
+                        {
+                            "icon": {
+                                "img": "images/pictures/ohc.png",
+                                "fa": "",
+                                "faColors": {
+                                    "bg": null,
+                                    "fill": null
+                                }
+                            },
+                            "dates": {
+                                "start": "03/01/2024",
+                                "end": "08/30/2024"
+                            },
+                            "locales": {
+                                "en": {
+                                    "title": "Open-Source Contributor (OHC)",
+                                    "info": "Open Health Care Network",
+                                    "text": "<p>Contributed to the Open Health Care Network (OHC) by implementing features that improve the accessibility of healthcare tools, such as creating APIs and enhancing the integration of machine learning models for patient diagnosis and prediction.</p>\n\n<ul>\n  <li><strong>Improved user experience by 15%</strong> by fixing password validation errors, preventing reuse of current passwords while changing to new password via RESTful APIs, ensuring consistent checks with Redux. PR: #7639</li>\n  <li><strong>Enhanced data integrity and user experience by 12%</strong> by standardizing input validation for pressure sore data, aligning column lengths, and skipping invalid pain scale values using Redux-Toolkit. PR: #7391</li>\n</ul>",
+                                    "tags": [
+                                        "React",
+                                        "Django",
+                                        "Python",
+                                        "Machine Learning"
+                                    ]
+                                },
+                                "es": {
+                                    "title": "Contribuidor Open-Source (OHC)",
+                                    "info": "Open Health Care Network",
+                                    "text": "<p>Contribuí a la Open Health Care Network (OHC) implementando funciones que mejoran la accesibilidad de las herramientas de salud, como la creación de APIs y la mejora de la integración de modelos de aprendizaje automático para diagnóstico y predicción de pacientes.</p>\n\n<ul>\n  <li><strong>Mejoré la experiencia del usuario en un 15%</strong> como desarrollador de software al corregir errores de validación de contraseñas, evitar la reutilización de contraseñas actuales al cambiar a una nueva contraseña a través de APIs RESTful, asegurando verificaciones consistentes con Redux. PR: #7639</li>\n  <li><strong>Mejoré la integridad de los datos y la experiencia del usuario en un 12%</strong> al estandarizar la validación de entradas para datos de úlceras por presión, alineando las longitudes de columna y omitiendo los valores no válidos de la escala de dolor utilizando Redux-Toolkit. PR: #7391</li>\n</ul>",
+                                    "tags": null
+                                },
+                                "fr": {
+                                    "title": "Contributeur Open-Source (OHC)",
+                                    "info": "Open Health Care Network",
+                                    "text": "<p>J'ai contribué à l'Open Health Care Network (OHC) en mettant en œuvre des fonctionnalités qui améliorent l'accessibilité des outils de santé, comme la création d'APIs et l'amélioration de l'intégration des modèles d'apprentissage automatique pour le diagnostic et la prédiction des patients.</p>\n\n<ul>\n  <li><strong>Amélioration de l'expérience utilisateur de 15%</strong> en tant que développeur logiciel en corrigeant les erreurs de validation des mots de passe, en empêchant la réutilisation des mots de passe actuels lors du changement pour un nouveau mot de passe via des APIs RESTful, assurant des contrôles cohérents avec Redux. PR: #7639</li>\n  <li><strong>Amélioration de l'intégrité des données et de l'expérience utilisateur de 12%</strong> en normalisant la validation des entrées pour les données des plaies de pression, en alignant les longueurs de colonnes et en sautant les valeurs de l'échelle de douleur invalides en utilisant Redux-Toolkit. PR: #7391</li>\n</ul>",
+                                    "tags": null
+                                },
+                                "ko": {
+                                    "title": "오픈소스 기여자 (OHC)",
+                                    "info": "Open Health Care Network",
+                                    "text": "<p>환자 진단 및 예측을 위한 기계 학습 모델 통합을 개선하고 API를 구현하여 건강 관리 도구의 접근성을 향상시킨 Open Health Care Network (OHC)에 기여하였습니다.</p>\n\n<ul>\n  <li><strong>소프트웨어 개발자로서 비밀번호 유효성 검사 오류를 수정하고, RESTful API를 통해 새 비밀번호로 변경할 때 현재 비밀번호 재사용을 방지하며, Redux를 사용하여 일관된 검사를 보장하여 사용자 경험을 15% 향상시켰습니다</strong>. PR: #7639</li>\n  <li><strong>압력 상처 데이터에 대한 입력 유효성 검사를 표준화하고, 열 길이를 정렬하며, Redux-Toolkit을 사용하여 유효하지 않은 통증 척도 값을 건너뛰는 방식으로 데이터 무결성과 사용자 경험을 12% 향상시켰습니다</strong>. PR: #7391</li>\n</ul>",
+                                    "tags": null
+                                }
+                            }
                         }
-                    }
+                    ]
                 }
             ]
         }
