@@ -138,7 +138,7 @@
                         "en": {
                             "title": "Open-Source Contributor (OHC)",
                             "info": "Open Health Care Network",
-                            "text": "<p>Contributed to the Open Health Care Network (OHC) by implementing features that improve the accessibility of healthcare tools, such as creating APIs and enhancing the integration of machine learning models for patient diagnosis and prediction.</p>\n\n<ul>\n  <li><strong>Improved user experience by 15%</strong> by fixing password validation errors, preventing reuse of current passwords while changing to new password via RESTful APIs, ensuring consistent checks with Redux. PR: #7639</li>\n  <li><strong>Enhanced data integrity and user experience by 12%</strong> by standardizing input validation for pressure sore data, aligning column lengths, and skipping invalid pain scale values using Redux-Toolkit. PR: #7391</li>\n</ul>",
+                            "text": "<p>Contributed to the Open Health Care Network (OHC) by implementing APIs and improving the integration of machine learning models for patient diagnosis and prediction. Enhanced user experience by fixing password validation issues and preventing password reuse via RESTful APIs, and improved data integrity by standardizing input validation for pressure sore data and handling invalid pain scale values using Redux and Redux-Toolkit.</p>",
                             "tags": [
                                 "React",
                                 "Django",
